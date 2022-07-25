@@ -1,0 +1,21 @@
+{
+    "name": "adriandiaz/app-salon_php_mvc_js_sass",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "al02954463@tecmilenio.mx"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
