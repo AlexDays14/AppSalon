@@ -1,6 +1,7 @@
 <?php
 
-$db = mysqli_connect('localhost', 'root', '', 'appsalon_mvc');
+mysql://bb4e01a00478fa:ec614b5a@us-cdbr-east-06.cleardb.net/heroku_43974f7748d8596?reconnect=true
+$db = mysqli_connect('us-cdbr-east-06.cleardb.net', 'bb4e01a00478fa', 'ec614b5a', 'heroku_43974f7748d8596');
 
 
 if (!$db) {
